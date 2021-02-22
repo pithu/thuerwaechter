@@ -1,0 +1,120 @@
+/* ---- body ---- */
+
+body	{
+	font-family: arial, verdana, sans-serif;
+	font-size:    medium;
+	font-style: normal;
+	text-align: center;
+}
+
+#wrapper {
+	width: 760px;
+	margin: 5px auto;
+	margin-bottom: 10px;
+	border: 1px solid white;
+	padding: 0px;
+}
+
+/* ---- elemente allgemein ---- */
+
+img {
+	border: 0px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:visited {
+	color: black;
+}
+
+a.outerlink, a.innerlink {
+	color: #8FBC8F;
+}
+
+a.outerlink:visited, a.innerlink:visited {
+	color: #2F4F4F;
+}
+
+h1 {
+	font-weight: bold;
+	font-size: large;
+}
+
+h2 {
+	font-weight: bold;
+	font-size: medium;
+}
+
+p {
+	font-weight: normal;
+	font-size: medium;
+}
+
+
+/* ---- logo ---- */
+
+#logo {
+	float: left;
+	width: 760px;
+}
+
+#imgtopdeko, #imgtoplogo {
+	border-bottom: 1px solid #FFFFFF;
+	float: left;
+}
+
+#imgtopdeko {
+	width: 499px;
+	float: left;
+}
+
+#imgtoplogo {
+	width: 260px;
+	float: left;
+}
+
+/* ----- content ------ */
+
+#content {
+	text-align: left;
+	border-left: 1px solid #999999;
+	border-right: 1px solid #999999;
+	padding: 10px;
+	padding-top: 15px;
+	float: left;
+	width: 478px;
+}
+
+#content ul li {
+	font-size: medium;
+}
+
+
+/* ------- teaser ------ */
+
+#teaser {
+	text-align: right;
+	padding: 10px;
+	padding-right: 0px;
+	padding-top: 15px;
+	float: left;
+	width: 248px;
+}
+
+
+/* ------- footer ------ */
+
+#footer {
+	float: left;
+	text-align: center;
+	margin-top: 10px;
+	padding: 10px;
+	width: 478px;
+}
+
+#footer p {
+	font-size: small;
+}
